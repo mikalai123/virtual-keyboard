@@ -245,3 +245,18 @@ let info1 = document.createElement('div');
   info1.id = "title"
   info1.innerHTML = "<strong>Для переключения языка комбинация: левыe ctrl + alt</strong>";
   document.body.append(info1);
+
+  //textarea
+  document.body.onload = addElement;
+
+
+  function addElement() {
+
+    var newDiv = document.createElement("div");
+        newDiv.innerHTML = "<textarea class='text' id='text'></textarea>";
+
+    my_div = document.getElementById("container");
+    document.body.insertBefore(newDiv, my_div);
+  }
+
+
