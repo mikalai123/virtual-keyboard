@@ -146,3 +146,48 @@ line3.insertAdjacentHTML('beforeEnd', '<button class="key" id="apostrophe"> " </
 
 const enter = document.querySelector('#apostrophe');
 line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='enter'>Enter</button>");
+
+
+  //4 line
+
+  const line4 = document.createElement('div');
+  line4.className = "line4 keyboard";
+  line4.id = "line4"
+  line4.innerHTML = "<button class='key' id='shift_left'>Shift</button>";
+  document.body.append(line4);
+
+const z = document.querySelector('#shift_left');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='z'>Z</button>");
+
+const x = document.querySelector('#z');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='x'>X</button>");
+
+const c = document.querySelector('#x');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='c'>C</button>");
+
+const v = document.querySelector('#c');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='v'>V</button>");
+
+const b = document.querySelector('#v');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='b'>B</button>");
+
+const n = document.querySelector('#b');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='n'>N</button>");
+
+const m = document.querySelector('#n');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='m'>M</button>");
+
+const comma = document.querySelector('#m');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='comma'>,</button>");
+
+const period = document.querySelector('#comma');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='period'>.</button>");
+
+const slash1 = document.querySelector('#period');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='slash1'>/</button>");
+
+const tp = document.querySelector('#slash1');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='tp'>▲</button>");
+
+const shift_right = document.querySelector('#tp');
+  line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='shift_right'>Shift</button>");
