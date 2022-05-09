@@ -260,3 +260,22 @@ let info1 = document.createElement('div');
   }
 
 
+
+
+
+  /////////////////
+
+  document.addEventListener('keyup', function(event){
+    console.log('Key: ', event.key);
+    console.log('keyCode: ', event.keyCode);
+  });
+
+
+  
+  document.querySelectorAll(".text").forEach(element => {
+    element.addEventListener("focus", () => {
+        this.open(element.value, currentValue => {
+            element.value = currentValue;
+        });
+    });
+});
