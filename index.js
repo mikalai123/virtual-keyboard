@@ -191,3 +191,44 @@ const tp = document.querySelector('#slash1');
 
 const shift_right = document.querySelector('#tp');
   line4.insertAdjacentHTML('beforeEnd', "<button class='key' id='shift_right'>Shift</button>");
+
+
+    //5 line
+
+const line5 = document.createElement('div');
+line5.className = "line5 keyboard";
+line5.id = "line5"
+line5.innerHTML = "<button class='key' id='ctrl'>Ctrl</button>";
+document.body.append(line5);
+
+const win = document.querySelector('#ctrl_left');
+line5.insertAdjacentHTML('beforeEnd', "<button class='key' id='win'>Win</button>");
+
+const alt_left = document.querySelector('#win');
+line5.insertAdjacentHTML('beforeEnd', "<button class='key' id='alt'>Alt</button>");
+
+const space = document.querySelector('#alt_left');
+line5.insertAdjacentHTML('beforeEnd', "<button class='key' id='space'>  </button>");
+
+const alt_right = document.querySelector('#space');
+line5.insertAdjacentHTML('beforeEnd', "<button class='key' id='alt_right'>Alt</button>");
+
+const lf = document.querySelector('#alt_right');
+line5.insertAdjacentHTML('beforeEnd', "<button class='key' id='lf'>◄</button>");
+
+const bn = document.querySelector('#lf');
+line5.insertAdjacentHTML('beforeEnd', "<button class='key' id='bn'>▼</button>");
+
+const rt = document.querySelector('#bn');
+line5.insertAdjacentHTML('beforeEnd', "<button class='key' id='rt'>►</button>");
+
+const ctrl_right = document.querySelector('#rt');
+line5.insertAdjacentHTML('beforeEnd', "<button class='key' id='ctrl_right'>Ctrl</button>");
+
+const container = document.createElement('div');
+container.className = 'container';
+container.id = 'container';
+document.body.append(container);
+container.append(newDiv, line, line3, line4, line5);
+
+//..........................................
