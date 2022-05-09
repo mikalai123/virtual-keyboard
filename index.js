@@ -102,3 +102,47 @@ const slash = document.querySelector('#bracket2');
 
 const del = document.querySelector('#slash');
   line.insertAdjacentHTML('beforeEnd', '<button class="key" id="del">Del</button>');
+
+  //3 line
+
+const line3 = document.createElement('div');
+line3.className = "line3 keyboard";
+line3.id = "line3"
+line3.innerHTML = "<button class='key' id='capslock'>Capslock</button>";
+document.body.append(line3);
+
+const a = document.querySelector('#capsLock');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='a'>A</button>");
+
+const s = document.querySelector('#a');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='s'>S</button>");
+
+const d = document.querySelector('#s');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='d'>D</button>");
+
+const f = document.querySelector('#d');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='f'>F</button>");
+
+const g = document.querySelector('#f');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='g'>G</button>");
+
+const h = document.querySelector('#g');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='h'>H</button>");
+
+const j = document.querySelector('#h');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='j'>J</button>");
+
+const k = document.querySelector('#j');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='k'>K</button>");
+
+const l = document.querySelector('#k');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='l'>L</button>");
+
+const semicolon = document.querySelector('#l');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='semicolon'>;</button>");
+
+const apostrophe = document.querySelector('#semicolon');
+line3.insertAdjacentHTML('beforeEnd', '<button class="key" id="apostrophe"> " </button>');
+
+const enter = document.querySelector('#apostrophe');
+line3.insertAdjacentHTML('beforeEnd', "<button class='key' id='enter'>Enter</button>");
