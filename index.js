@@ -53,3 +53,52 @@ newDiv.insertAdjacentHTML('beforeEnd', '<button class="key" id="backspace">Backs
 
 
 
+//2 line
+
+const line = document.createElement('div');
+  line.className = "line2 keyboard";
+  line.id = "line2"
+  line.innerHTML = "<button class='key' id='tab'>Tab</button>";
+  document.body.append(line);
+
+const q = document.querySelector('#tab');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="KeyQ" click=consol.log=("q")>Q</button>');
+
+const w = document.querySelector('#q');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="KeyW">W</button>');
+
+const e = document.querySelector('#w');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="e">E</button>');
+
+const r = document.querySelector('#e');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="r">R</button>');
+
+const t = document.querySelector('#r');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="t">T</button>');
+
+const y = document.querySelector('#t');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="y">Y</button>');
+
+const u = document.querySelector('#y');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="u">U</button>');
+
+const i = document.querySelector('#u');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="i">I</button>');
+
+const o = document.querySelector('#i');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="o">O</button>');
+
+const p = document.querySelector('#o');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="p">P</button>');
+
+const bracket1 = document.querySelector('#p');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="bracket1">[</button>');
+
+const bracket2 = document.querySelector('#bracket1');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="bracket2">]</button>');
+
+const slash = document.querySelector('#bracket2');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="slash">\\ </button>');
+
+const del = document.querySelector('#slash');
+  line.insertAdjacentHTML('beforeEnd', '<button class="key" id="del">Del</button>');
