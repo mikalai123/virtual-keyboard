@@ -1,0 +1,74 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background: yellowgreen;
+  }
+  .title {
+    width: 1000px;
+    font-size: 40px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  textarea {
+    width: 1000px;
+    height: 300px;
+  }
+  div#container {
+    width: 1000px;
+    border: 5px solid #000000;
+    border-radius: 9px;
+    background: aqua;
+  }
+  .keyboard{
+    padding-top: 5px;
+  }
+  div#line5 {
+    padding-bottom: 5px;
+  }
+  button#backspace {
+    width: 145px;
+  }
+  button#tab {
+    width: 80px;
+  }
+  button#capslock {
+    width: 153px;
+  }
+  button#enter {
+    width: 117px;
+  }
+  button#shift_left {
+    width: 153px;
+  }
+  button#shift_right {
+    width: 117px;
+  }
+  button#space {
+    width: 470px;
+    padding-bottom: 20px;
+  }
+  .key{
+    cursor: pointer;
+  }
+  .key:hover{
+  background-image : radial-gradient(ellipse farthest-corner at 50% 50%, #fdeaa8,#777);
+  }
+  
+  .key:active{
+    border-radius: 50px;
+    color: red;
+    transition: 0.3s;
+  }
+  .key::before{
+    border-radius: 100%;
+  }
+  button {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    border: 3px solid;
+    border-radius: 9px;
+    font-size: 20px;
+  }
