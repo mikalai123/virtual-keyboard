@@ -232,3 +232,16 @@ document.body.append(container);
 container.append(newDiv, line, line3, line4, line5);
 
 //..........................................
+
+let info = document.createElement('div');
+  info.className = "title";
+  info.id = "title"
+  info.innerHTML = "<strong>Клавиатура создана в операционной системе Windows</strong>";
+  document.body.append(info);
+
+
+let info1 = document.createElement('div');
+  info1.className = "title";
+  info1.id = "title"
+  info1.innerHTML = "<strong>Для переключения языка комбинация: левыe ctrl + alt</strong>";
+  document.body.append(info1);
